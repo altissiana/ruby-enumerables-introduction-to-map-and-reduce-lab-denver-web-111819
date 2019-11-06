@@ -6,7 +6,8 @@ def map_to_negativize(source_array)
   source_array.each do |number|
     negative_number = number * -1
     new_array.push(negative_number)
-  end  
+  end
+  new_array
 end
 
 
