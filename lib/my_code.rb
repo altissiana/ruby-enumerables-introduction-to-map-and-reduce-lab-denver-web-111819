@@ -41,14 +41,10 @@ end
 
 def reduce_to_all_true(source_array)
   source_array.each do |x|
-    if x == true
-    
-    else == false
-      
-  end  
-  x
+    if x == false 
+    return false
+  end
 end  
-
 
 
 #reduce_to_any_true(source_array)
