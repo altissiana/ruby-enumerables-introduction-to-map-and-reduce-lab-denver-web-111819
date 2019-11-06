@@ -22,4 +22,10 @@ def map_to_double(source_array)
   new_array
 end  
   
-#map_to_square(source_array)
+def map_to_square(source_array)
+  new_array = []
+  source.array.each do |number|
+    sqr_number = number * number
+  end
+  new_array
+end  
