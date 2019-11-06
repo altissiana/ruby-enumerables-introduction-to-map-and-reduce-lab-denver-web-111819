@@ -42,7 +42,7 @@ end
 def reduce_to_all_true(source_array)
   source.array do |x|
     if x[i] == true
-      true
+      x
   end  
 end  
 
