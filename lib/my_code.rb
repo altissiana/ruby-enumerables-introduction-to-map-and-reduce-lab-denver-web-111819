@@ -24,9 +24,11 @@ end
   
 def map_to_square(source_array)
   new_array = []
-  source.array.each do |number|
+  source_array.each do |number|
     sqr_number = number * number
     new_array.push(sqr_number)
   end
   new_array
 end  
+
+
