@@ -48,7 +48,6 @@ def reduce_to_all_true(source_array)
   return true
 end  
 
-
 def reduce_to_any_true(source_array)
   source_array.each do |x|
     if x == true
@@ -57,5 +56,3 @@ def reduce_to_any_true(source_array)
   end 
   return false
 end  
-
-
