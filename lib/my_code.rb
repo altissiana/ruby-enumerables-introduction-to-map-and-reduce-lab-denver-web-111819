@@ -44,6 +44,7 @@ def reduce_to_all_true(source_array)
     if x[i] == true
       x
   end  
+  x
 end  
 
 
